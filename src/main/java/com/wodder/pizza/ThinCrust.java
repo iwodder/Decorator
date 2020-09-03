@@ -1,6 +1,6 @@
 package com.wodder.pizza;
 
-public class ThinCrust extends PizzaCrust {
+public class ThinCrust extends Pizza {
     private final double cost = 3.99;
 
     public ThinCrust() {

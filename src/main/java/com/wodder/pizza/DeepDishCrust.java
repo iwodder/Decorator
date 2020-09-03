@@ -1,12 +1,11 @@
 package com.wodder.pizza;
 
-import java.util.ArrayList;
-
-public class DeepDish extends PizzaCrust {
+public class DeepDishCrust extends Pizza {
     private final double cost = 5.99;
 
-    public DeepDish() {
+    public DeepDishCrust() {
         this.description = "Deep dish crust";
+        this.add(this.description);
     }
 
     @Override

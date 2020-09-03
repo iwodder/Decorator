@@ -1,10 +1,11 @@
 package com.wodder.pizza;
 
-public class RegularCrust extends PizzaCrust {
+public class RegularCrust extends Pizza {
     private final double cost = 4.99;
 
     public RegularCrust() {
         this.description = "Regular crust";
+        this.add(this.description);
     }
 
     @Override
